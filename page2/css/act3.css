@@ -1,0 +1,54 @@
+/* Dipesh kabariya
+(991550231*/
+	header{
+		background:rgba(245,0,0,0.5);
+		Font-size:3em;
+		color:yellow;
+	}
+	.wrapper{
+      display:grid;
+      grid-template-columns:50% 50%;
+	  color:white;
+	  font-size:1.5em;
+     
+      grid-gap:1em;
+    }
+
+    .wrapper > div{
+      background:rgba(59,150,0,0.3);
+      padding:1em;
+    }
+    .wrapper > div:nth-child(odd){
+      background:rgba(255,70,0,0.3);
+    }
+	.image{
+		box-shadow:5px 5px white;
+	}
+		
+		.info > div{
+			display:grid;
+             grid-template-columns:33% 67%;
+	  color:white;
+	  font-size:1.5em;
+      grid-gap:1em;
+		}
+	.info > div:nth-child(even){
+		background:rgba(255,70,0,0.3);
+	}
+		
+
+.actor{
+	display:flex;
+	grid-template-columns:50% 50%;
+  grid-gap:1em;
+}
+
+.actor > div{
+	background:#fff;
+	
+
+}
+footer{
+	font-size:.5em;
+font-weight:italic;
+}
